@@ -34,6 +34,14 @@ The Stock Management System (mock) demonstrates:
 - Basic reporting for decision-making  
 - Easy-to-understand structure for future expansion
 
+## Structure / Tables
+| Table Name           | Fields / Attributes                         | Description                                      |
+|----------------------|--------------------------------------------|-------------------------------------------------|
+| PRODUCTS             | ProductID, Name, Category, Price, Quantity | Stores all facial products available at Glowmark |
+| SUPPLIERS            | SupplierID, Name, Contact, ProductsSupplied | Tracks supplier details and products supplied  |
+| STOCK_TRANSACTIONS   | TransactionID, Date, ProductID, QuantityIn, QuantityOut, SupplierID | Records stock movement (in/out)                |
+| REORDER_ALERTS       | ProductID, MinimumQuantity, AlertStatus     | Monitors low stock and triggers reorder alerts |
+
 ## Technologies Used
 
 - **Documentation & Process Mapping:** Microsoft Word, Excel  
