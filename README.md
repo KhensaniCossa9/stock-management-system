@@ -28,11 +28,17 @@ This project demonstrates **requirements analysis, process mapping, and system d
 
 ## Features
 
-The Stock Management System (mock) demonstrates:
 
 - Simulated data to show system functionality  
-- Basic reporting for decision-making  
-- Easy-to-understand structure for future expansion
+- Stock management (add/update/delete products)  
+- Supplier management  
+- Sales tracking  
+- Stock alerts with color-coded highlights  
+- Inventory reports with tables and graphs  
+- CSV export for tables and reports
+
+## System UI
+
 
 ## Structure / Tables
 | Table Name           | Fields / Attributes                         | Description                                      |
@@ -41,9 +47,14 @@ The Stock Management System (mock) demonstrates:
 | SUPPLIERS            | SupplierID, Name, Contact, ProductsSupplied | Tracks supplier details and products supplied  |
 | STOCK_TRANSACTIONS   | TransactionID, Date, ProductID, QuantityIn, QuantityOut, SupplierID | Records stock movement (in/out)                |
 | REORDER_ALERTS       | ProductID, MinimumQuantity, AlertStatus     | Monitors low stock and triggers reorder alerts |
+| SALES                | SaleID, ProductID, QuantitySold, TotalSale, DateSold | Tracks product sales |
+
 
 ## Technologies Used
 
-- **Documentation & Process Mapping:** Microsoft Word, Excel  
-- **Diagrams:** Lucidchart / Draw.io / Canva  
-- **Version Control & Portfolio:** GitHub
+- **Programming & UI:** Python, Tkinter  
+- **Database:** SQLite  
+- **Documentation & Diagrams:** Microsoft Word, Excel, Lucidchart/Draw.io/Canva  
+- **Version Control:** GitHub
+
+## How to Run 
