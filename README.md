@@ -1,60 +1,96 @@
 # Glowmark Stock Management System 💄📊 (Mock Project)
 
-This project is a mock stock management system for **Glowmark**, a fictional facial products business.  
-It demonstrates how inventory can be tracked efficiently instead of handling everything manually.
+The **Glowmark Stock Management System** is a mock desktop application developed for a fictional facial-product business. The project demonstrates how small businesses can move from manual stock tracking to a structured, digital inventory system.
+
+This project was created to showcase **information systems analysis, business logic, and system design skills**.
 
 ## Business Problem
 
 Glowmark currently manages all inventory manually.  
 This leads to several challenges:
 
-- Stock shortages or overstock due to human error  
-- Difficulty tracking products and suppliers  
-- Time-consuming record-keeping and reporting  
-- Inconsistent data for decision-making  
+- Inaccurate stock counts
+- Stock shortages or overstocking
+- Difficulty tracking suppliers for restocking and sales
+- No clear visibility of low stock items
+- Time-consuming reporting
 
 The Stock Management System aims to streamline inventory tracking, improve accuracy, and save time, allowing Glowmark to focus on growing the business.
 
 ## Business Solution
 
-The Stock Management System for Glowmark is a mock project designed to:
+The Stock Management System for Glowmark provides a structured solution that:
 
-- Track all products and their quantities  
-- Record supplier details and purchase information  
-- Monitor stock levels and generate low-stock alerts  
-- Produce basic inventory reports for decision-making  
+- Tracks products and their quantities  
+- Records sales transactions
+- Manages supplier information
+- Monitors stock levels and flags low stock
+- Generates clear inventory reports
 
-This project demonstrates **requirements analysis, process mapping, and system documentation**, showing skills in information systems design and business analysis.
+## Key Features
 
-## Features
+-**Welcome Dashboard**
+ - Displays total products, total sales, and low-stock count
+
+- **Stock Management**
+  - Add, update, and view products
+  - Automatic quantity calculations
+
+- **Sales Management**
+  - Record product sales
+  - Automatically updates stock levels
+
+- **Supplier Management**
+  - Store supplier names and contact details
+  - Supports restocking workflows
+
+- **Stock Alerts**
+  - Color-coded stock levels:
+    - 🔴 Critical (below 15)
+    - 🟡 Low (15–29)
+    - 🟢 Healthy (30+)
+  - Filter by stock status
+  - Reorder shortcut to suppliers
+
+-**Reports**
+ - Stock level report with table and bar graph
+ - Export stock data to CSV for analysis
+ - Sorted to highlight low-stock items first
+
+## Screenshots (UI overview)
 
 
-- Simulated data to show system functionality  
-- Stock management (add/update/delete products)  
-- Supplier management  
-- Sales tracking  
-- Stock alerts with color-coded highlights  
-- Inventory reports with tables and graphs  
-- CSV export for tables and reports
+## Conceptual Database Design
 
-## System UI
-
-
-## Structure / Tables
-| Table Name           | Fields / Attributes                         | Description                                      |
-|----------------------|--------------------------------------------|-------------------------------------------------|
-| PRODUCTS             | ProductID, Name, Category, Price, Quantity | Stores all facial products available at Glowmark |
-| SUPPLIERS            | SupplierID, Name, Contact, ProductsSupplied | Tracks supplier details and products supplied  |
-| STOCK_TRANSACTIONS   | TransactionID, Date, ProductID, QuantityIn, QuantityOut, SupplierID | Records stock movement (in/out)                |
-| REORDER_ALERTS       | ProductID, MinimumQuantity, AlertStatus     | Monitors low stock and triggers reorder alerts |
-| SALES                | SaleID, ProductID, QuantitySold, TotalSale, DateSold | Tracks product sales |
+| Table Name             | Fields / Attributes                                                                | Description                                                |
+| ---------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **PRODUCTS**           | ProductID (PK), Name, Category, Price, Quantity                                    | Stores all facial products sold by Glowmark                |
+| **SUPPLIERS**          | SupplierID (PK), Name, Phone, Email, ProductType                                   | Stores supplier contact details and supplied product types |
+| **STOCK_TRANSACTIONS** | TransactionID (PK), Date, ProductID (FK), QuantityIn, QuantityOut, SupplierID (FK) | Records all stock movement (purchases and sales)           |
+| **REORDER_ALERTS**     | AlertID (PK), ProductID (FK), MinimumQuantity, AlertStatus                         | Monitors low stock levels and triggers reorder alerts      |
+| **SALES**              | SaleID (PK), ProductID (FK), QuantitySold, TotalSale, DateSold                     | Tracks all product sales for reporting                     |
 
 
 ## Technologies Used
 
-- **Programming & UI:** Python, Tkinter  
+- **Programming & Language:** Python
+- **User Interface:** Tkinter  
 - **Database:** SQLite  
-- **Documentation & Diagrams:** Microsoft Word, Excel, Lucidchart/Draw.io/Canva  
-- **Version Control:** GitHub
+- **Version Control & Portfolio:** GitHub
 
-## How to Run 
+## How to Run the Project
+
+1. Download or clone the repository
+2. Open the project folder
+3. Run the main Python file:
+   ```bash
+   python glowmark.py
+4. The application opens as a desktop window
+
+## Project Type
+This is a mock project created for learning, portfolio. and demonstration purposes.
+It is not a live commercial system
+
+## Author
+Created by Khensani Cossa
+(Bcom Information Systems Graduate)
