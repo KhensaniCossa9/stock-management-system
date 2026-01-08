@@ -31,6 +31,8 @@ The Glowmark Stock Management System provides a structured solution that:
 - Displays total sales
 - Displays low-stock item count
 
+![Welcome Page](welcome.png)
+
 **Stock Management**
 - Add, update, and view products
 - Automatic quantity calculations
@@ -56,8 +58,6 @@ The Glowmark Stock Management System provides a structured solution that:
 - Bar graph visualization of stock levels
 - Export stock data to CSV 
 - Sorted to highlight low-stock items first
-
-## Screenshots (UI overview)
 
 **Welcome Dashboard**
 
