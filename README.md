@@ -34,8 +34,12 @@ The Glowmark Stock Management System provides a structured solution that:
 ![Welcome Page](welcome.png)
 
 **Stock Management**
+
+![Manage Stock](manage_stock.png)
+
 - Add, update, and view products
 - Automatic quantity calculations
+
 
 **Sales Management**
 - Record product sales
