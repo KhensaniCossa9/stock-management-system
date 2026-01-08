@@ -27,11 +27,12 @@ The Glowmark Stock Management System provides a structured solution that:
 ## Key Features
 
 **Welcome Dashboard**
+
+![Welcome Page](welcome.png)
+
 - Displays total products
 - Displays total sales
 - Displays low-stock item count
-
-![Welcome Page](welcome.png)
 
 **Stock Management**
 
@@ -42,14 +43,23 @@ The Glowmark Stock Management System provides a structured solution that:
 
 
 **Sales Management**
+
+![Sales Page](sales.png)
+
 - Record product sales
 - Automatically updates stock levels
 
 **Supplier Management**
+
+![Suppliers Page](suppliers.png)
+
 - Store supplier names and contact details
 - Supports restocking workflows
 
 **Stock Alerts**
+
+![Alerts Page](alerts.png)
+
 - Color-coded stock levels:
  - 🔴 Critical (below 15)
  - 🟡 Low (15–29)
@@ -58,34 +68,13 @@ The Glowmark Stock Management System provides a structured solution that:
 - Reorder shortcut linked to suppliers
 
 **Reports**
+
+![Reports Page](reports.png)
+
 - Stock level report displayed in table format
 - Bar graph visualization of stock levels
 - Export stock data to CSV 
 - Sorted to highlight low-stock items first
-
-**Welcome Dashboard**
-
-![Welcome Page](welcome.png)
-
-**Manage Stock**
-
-![Manage Stock](manage_stock.png)
-
-**Sales Page**
-
-![Sales Page](sales.png)
-
-**Suppliers Page**
-
-![Suppliers Page](suppliers.png)
-
-**Stock Alerts Page**
-
-![Alerts Page](alerts.png)
-
-**Reports Page**
-
-![Reports Page](reports.png)
 
 ## Conceptual Database Design
 
