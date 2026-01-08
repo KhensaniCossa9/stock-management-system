@@ -121,7 +121,12 @@ The Glowmark Stock Management System provides a structured solution that:
  - Open glowmark_app.py in VS Code.
  - Open the terminal (Terminal → New Terminal).
  - Type the following command and press Enter:
+   
+   **python glowmark_app.py**
+   
  - If your system uses Python 3 specifically, type:
+   
+   **python3 glowmark_app.py**
    
 5.	**Use the application**
  - The desktop window will open.
