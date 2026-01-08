@@ -103,12 +103,30 @@ The Glowmark Stock Management System provides a structured solution that:
 
 ## How to Run the Project
 
-1. Download or clone the repository
-2. Open the project folder
-3. Run the main Python file:
-   ```bash
-   python glowmark.py
-4. The application opens as a desktop window
+1.	**Open the repository in GitHub**
+ - Ensure the repository contains the following files:
+ - glowmark_app.py (main Python file)
+ - glowmark_stock.db (database)
+ - glowmark_logo.png (logo)
+ - Screenshots (uploaded individually)
+   
+2.	**Download the files to your computer**
+ - Click each file → Download.
+ - Save all files into one folder (e.g., Glowmark_Stock_Management).
+   
+3.	**Open the project folder in VS Code**
+ - Make sure all downloaded files are in the same folder.
+   
+4.	**Run the application**
+ - Open glowmark_app.py in VS Code.
+ - Open the terminal (Terminal → New Terminal).
+ - Type the following command and press Enter:
+ - If your system uses Python 3 specifically, type:
+   
+5.	**Use the application**
+ - The desktop window will open.
+ - Navigate through the Welcome, Manage Stock, Sales, Suppliers, Alerts, and Reports pages.
+ - Export CSV files if needed from the Reports page.
 
 ## Project Type
 This is a mock project created for learning, portfolio. and demonstration purposes.
