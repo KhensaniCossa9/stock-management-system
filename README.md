@@ -59,9 +59,23 @@ The Glowmark Stock Management System provides a structured solution that:
 
 ## Screenshots (UI overview)
 
-## Welcome Dashboard
+**Welcome Dashboard**
 ![Welcome Page](welcome.png)
 
+**Manage Stock**
+![Manage Stock](manage_stock.png)
+
+**Sales Page**
+![Sales Page](sales.png)
+
+**Suppliers Page**
+![Suppliers Page](suppliers.png)
+
+**Stock Alerts Page**
+![Alerts Page](alerts.png)
+
+**Reports Page**
+![Reports Page](reports.png)
 
 ## Conceptual Database Design
 
