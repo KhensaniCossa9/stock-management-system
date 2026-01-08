@@ -140,5 +140,4 @@ It is not a live commercial system.
 
 ## Author
 Khensani Cossa
-
-Bcom Information Systems Graduate
+Bcom Information Systems Graduate | University of the Witwatersrand
