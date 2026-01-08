@@ -60,6 +60,7 @@ The Glowmark Stock Management System provides a structured solution that:
 ## Screenshots (UI overview)
 
 **Welcome Dashboard**
+
 ![Welcome Page](welcome.png)
 
 **Manage Stock**
