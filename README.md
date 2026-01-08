@@ -61,9 +61,9 @@ The Glowmark Stock Management System provides a structured solution that:
 ![Alerts Page](alerts.png)
 
 - Color-coded stock levels:
- - 🔴 Critical (below 15)
- - 🟡 Low (15–29)
- - 🟢 Healthy (30+)
+  - 🔴 Critical (below 15)
+  - 🟡 Low (15–29)
+  - 🟢 Healthy (30+)
 - Filter products by stock status
 - Reorder shortcut linked to suppliers
 
