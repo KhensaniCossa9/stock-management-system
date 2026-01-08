@@ -135,8 +135,8 @@ Ensure the repository contains the following files:
  - Export CSV files if needed from the Reports page.
 
 ## Project Type
-This is a mock project created for learning, portfolio. and demonstration purposes.
-It is not a live commercial system
+This is a mock project created for learning, portfolio, and demonstration purposes.
+It is not a live commercial system.
 
 ## Author
 Khensani Cossa
