@@ -105,10 +105,10 @@ The Glowmark Stock Management System provides a structured solution that:
 
 1.	**Open the repository in GitHub**
  - Ensure the repository contains the following files:
-  - glowmark_app.py (main Python file)
-  - glowmark_stock.db (database)
-  - glowmark_logo.png (logo)
-  - Screenshots (uploaded individually)
+   - glowmark_app.py (main Python file)
+   - glowmark_stock.db (database)
+   - glowmark_logo.png (logo)
+   - Screenshots (uploaded individually)
    
 2.	**Download the files to your computer**
  - Click each file → Download.
